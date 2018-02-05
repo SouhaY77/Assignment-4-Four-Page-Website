@@ -1,0 +1,264 @@
+
+/*  general style*/
+header {
+    height: 100px;
+    background: #C0C9CB;
+    padding-top: 5px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #183143;
+    text-shadow: 10px 0 20px #374346;
+}
+
+h4{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+
+}
+
+
+.art-display {
+    background-size: cover;
+    background-image: url('../img/back.jpg');
+    width: 100%;
+    height: 120vh;
+     margin: 0;
+    position: relative;
+}
+
+.about-me {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  padding:30px 30px;
+}
+
+  .about-me img {
+     width: 300px;
+     height: 250px;
+     padding: 1px;
+     border:15px solid #183143;
+     box-shadow: 5px 5px 10px #9E9E9E;
+  }
+
+  .art-display p {
+    margin: 0 auto;
+    text-align: justify;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+.art-display h4{
+  padding-top: 10px;
+}
+
+
+@media query(max-width:600){
+  .about-me img{
+    width: 50%
+
+  }
+
+}
+
+/* Desktop */
+.desktop-nav ul {
+    float: right;
+    margin-top: 10px;
+    width: calc(100% - 60px);
+    text-align: right;
+}
+
+.desktop-nav li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+/* Mobile */
+.mobile-nav {
+    display: none;
+    text-align: center;
+}
+
+.mobile-nav .logo {
+    display: inline-block;
+}
+
+.mobile-nav .hamburger-container,
+.mobile-nav .cart-container {
+    vertical-align: top;
+    margin-top: 30px;
+    display: inline-block;
+     margin-left: -4px;
+}
+
+.mobile-nav .logo-container {
+    display: inline-block;
+    margin-left: -4px;
+    width: calc(100% - 70px);
+}
+
+.mobile-nav h1{
+  text-align: center;
+  color: #183143;
+  text-shadow: 4px 0 4px #374346;
+  font-weight: 400;
+}
+
+.mobile-nav button {
+    background: transparent;
+    border: none;
+    color: #183143;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav {
+        display: block;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+}
+
+
+ @media (max-width:768px) {
+  a, h1{
+    text-align: top;
+    font-size: 25px;
+    color: #183143;
+    text-shadow: 5px 0 5px #374346;
+  }
+}
+
+
+p{
+    font-family: sans-serif;
+    font-weight: 400;
+
+ }
+
+ul{
+    margin: 0;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #0B677C;
+}
+
+.lego a:hover,
+.lego a:visited,
+.lego a:focus,
+.lego a:active {
+  color: #183143;
+}
+
+.hero {
+    padding: 0;
+    background: #E0E0E0;
+    height: 60px;
+}
+
+
+.hero a, li {
+      font-family: 'Dancing Script', cursive;
+      display:inline-block;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 25px;
+      color: #0B677C;
+      text-shadow: 10px 0 20px #374346;
+      margin-left: 25px;
+      padding-top: 5px;
+ }
+
+ .hero a:active,
+ .hero a:focus {
+   color: #0B677C;
+}
+
+ .hero a:hover {
+    color: #151827;
+ }
+
+.hero i {
+   width: 50px;
+   margin-left: 360px;
+   padding: 4px;
+}
+
+@media (max-width:768px) {
+  .hero{
+    display: none;
+  }
+}
+
+.mobile-pic img {
+  width: 50%;
+  border:15px solid #183143;
+  padding: 1px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * */
+
+footer {
+    height:100px;
+    background: #89867a;
+    padding: 0;
+     margin: 0;
+    text-align: center;
+    padding-top: 7px;
+}
+
+footer a {
+    color: #183143;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
+.social-icons li {
+    display: inline-block;
+    font-size: 18px;
+    color: #183143;
+}
+
+.social-icons i {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #183143;
+}
+
+@media (max-width :768px) {
+.social-icons i {
+    display: inline-block;
+    font-size: 23px;
+  }
+
+h4{
+  font-size: 24px;
+  }
+
+footer {
+  text-align: center;
+    }
+}
