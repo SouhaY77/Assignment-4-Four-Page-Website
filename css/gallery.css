@@ -137,6 +137,12 @@ td button {
         background-size: cover;
         background-position: top center;
     }
+    img {
+      transform: scale(0.85);
+    }
+    tr {
+     transform: scale(0.85);
+    }
   }
 
 .mobile-nav .art-display {
@@ -215,7 +221,7 @@ Footer
 * * * * * * * * * * * * * * * * * * * * */
 
 footer {
-    height:100px;
+    min-height:100px;
     background: #89867a;
     padding: 0;
      margin: 0;

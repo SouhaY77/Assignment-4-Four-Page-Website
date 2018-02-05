@@ -219,7 +219,7 @@ Footer
 * * * * * * * * * * * * * * * * * * * * */
 
 footer {
-    height:100px;
+    min-height:100px;
     background: #89867a;
     padding: 0;
      margin: 0;
