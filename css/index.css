@@ -175,11 +175,11 @@ h4{
   }
 
 /* mobile art-display */
-.mobile-nav .art-display {
+.mobile-nav {
         background-image: url('../img/room.jpg');
         background-repeat: no-repeat;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background-size: cover;
         background-attachment: fixed;
 
@@ -245,11 +245,10 @@ ul{
 
 .art-display {
     background-size: cover;
-    /* background-position:top; */
+    background-position: center;
     background-image: url('../img/room.jpg');
     width: 100%;
-    height: 120vh;
-    /* display: inline-block; */
+    height: 100vh;
     margin: 0;
     position: relative;
 }
@@ -264,8 +263,8 @@ ul{
 
 
  .pic-1 {
-       width: 260px;
-       height: 200px;
+       width: 250px;
+       height: 210px;
        padding: 5px;
        position: absolute;
    }
@@ -278,7 +277,8 @@ ul{
     border:15px solid #183143;
     box-shadow: 5px 5px 10px #9E9E9E;
     position: absolute;
-    left: 150px;
+    top: 30vh;
+    left: 22vw;
 }
 
 .pic-1 a:hover{
@@ -287,8 +287,8 @@ ul{
 }
 
 .pic-3{
-      width: 280px;
-      height: 160px;
+      width: 290px;
+      height: 190px;
       position: absolute;
   }
 
@@ -299,8 +299,8 @@ ul{
    border:15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 550px;
-   top: 260px;
+   left: 40vw;
+   top: 32vh;
 }
 
 .pic-3 a:hover{
@@ -324,7 +324,8 @@ ul{
    border:15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left:680px;
+   left:57vw;
+   top:15vh;
 }
 
 .pic-4 a:hover{
@@ -348,7 +349,8 @@ ul{
    border: 15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 450px;
+   left: 43vw;
+   top: 5vh;
 }
 
 .pic-6 a:hover{
@@ -358,8 +360,8 @@ ul{
 
 
 .pic-7{
-      width: 260px;
-      height: 200px;
+      width: 300px;
+      height: 230px;
       padding: 10px;
       position: absolute;
 
@@ -372,8 +374,8 @@ ul{
    border: 15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 180px;
-   top: 210px;
+   left: 25vw;
+   top: 5vh;
 }
 
 .pic-7 a:hover{
