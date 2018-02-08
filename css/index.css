@@ -129,7 +129,7 @@ h4{
  	padding-right: 10px;
  }
 
- @media (min-width: 768px) {
+ /* @media (min-width: 768px) {
  	.mobile-menu {
  		display:none;
  	}
@@ -137,7 +137,7 @@ h4{
       display:none;
   }
 
- }
+ } */
 
 
 @media (max-width: 768px) {
@@ -170,6 +170,8 @@ h4{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+        height: 120vh;
+        
     }
   }
 
