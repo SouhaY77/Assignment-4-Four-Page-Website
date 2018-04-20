@@ -129,15 +129,14 @@ h4{
  	padding-right: 10px;
  }
 
- /* @media (min-width: 768px) {
+ @media (min-width: 768px) {
  	.mobile-menu {
  		display:none;
  	}
   .mobile-nav {
       display:none;
   }
-
- } */
+ }
 
 
 @media (max-width: 768px) {
@@ -160,7 +159,6 @@ h4{
   }
 }
 
-
 @media (max-width:768px) {
   .hero{
     display: none;
@@ -170,19 +168,17 @@ h4{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
-        height: 120vh;
     }
   }
 
 /* mobile art-display */
-.mobile-nav {
+.mobile-nav .art-display {
         background-image: url('../img/room.jpg');
         background-repeat: no-repeat;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-size: cover;
         background-attachment: fixed;
-
 }
 
 p{
@@ -245,10 +241,11 @@ ul{
 
 .art-display {
     background-size: cover;
-    background-position: center;
+    /* background-position:top; */
     background-image: url('../img/room.jpg');
     width: 100%;
-    height: 100vh;
+    height: 120vh;
+    /* display: inline-block; */
     margin: 0;
     position: relative;
 }
@@ -263,8 +260,8 @@ ul{
 
 
  .pic-1 {
-       width: 210px;
-       height: 190px;
+       width: 260px;
+       height: 200px;
        padding: 5px;
        position: absolute;
    }
@@ -277,8 +274,7 @@ ul{
     border:15px solid #183143;
     box-shadow: 5px 5px 10px #9E9E9E;
     position: absolute;
-    top: 30vh;
-    left: 22vw;
+    left: 150px;
 }
 
 .pic-1 a:hover{
@@ -287,8 +283,8 @@ ul{
 }
 
 .pic-3{
-      width: 260px;
-      height: 170px;
+      width: 280px;
+      height: 160px;
       position: absolute;
   }
 
@@ -299,8 +295,8 @@ ul{
    border:15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 40vw;
-   top: 32vh;
+   left: 550px;
+   top: 260px;
 }
 
 .pic-3 a:hover{
@@ -310,7 +306,7 @@ ul{
 
 
 .pic-4{
-      width: 300px;
+      width: 330px;
       height: 250px;
       padding: 4px;
      position: absolute;
@@ -324,8 +320,7 @@ ul{
    border:15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left:57vw;
-   top:15vh;
+   left:680px;
 }
 
 .pic-4 a:hover{
@@ -335,8 +330,8 @@ ul{
 
 
 .pic-6{
-      width: 190px;
-      height: 220px;
+      width: 200px;
+      height: 240px;
       padding: 10px;
      position: absolute;
 
@@ -349,8 +344,7 @@ ul{
    border: 15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 43vw;
-   top: 5vh;
+   left: 450px;
 }
 
 .pic-6 a:hover{
@@ -360,8 +354,8 @@ ul{
 
 
 .pic-7{
-      width: 280px;
-      height: 210px;
+      width: 260px;
+      height: 200px;
       padding: 10px;
       position: absolute;
 
@@ -374,8 +368,8 @@ ul{
    border: 15px solid #183143;
    box-shadow: 5px 5px 10px #9E9E9E;
    position: absolute;
-   left: 25vw;
-   top: 3vh;
+   left: 180px;
+   top: 210px;
 }
 
 .pic-7 a:hover{
@@ -402,7 +396,7 @@ footer {
     min-height:100px;
     background: #89867a;
     padding: 0;
-     margin: 0;
+    margin: 0;
     text-align: center;
     padding-top: 7px;
 }
@@ -437,7 +431,6 @@ footer a:hover {
 h4{
   font-size: 24px;
   }
-
 footer {
   text-align: center;
     }
